@@ -37,4 +37,13 @@ def myfunction():
 # having an empty function definition like this, would raise an error without the pass statement
 
 def myfunction():
-    
+
+
+#Lambda Function
+#with 1 argument
+x = lambda a : a - 5
+print(x(20))
+
+#with 2 arguments
+x = lambda a, b : a / b
+print(x(24, 6))
