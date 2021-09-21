@@ -36,7 +36,7 @@ def myfunction():
 
 # having an empty function definition like this, would raise an error without the pass statement
 
-def myfunction():
+def myfunction():  #this will give an error
 
 
 #Lambda Function
@@ -47,3 +47,15 @@ print(x(20))
 #with 2 arguments
 x = lambda a, b : a / b
 print(x(24, 6))
+
+#This function returns the absolute value of the entered number
+def absolute_value(number):              #function created
+
+    if number >= 0:
+        return number
+    else:
+        return -number
+
+
+print(absolute_value(7))                #function called
+print(absolute_value(-3))
