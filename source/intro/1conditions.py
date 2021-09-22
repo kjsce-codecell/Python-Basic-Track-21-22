@@ -1,3 +1,7 @@
+'''
+take two integers from the user and tell which one greater than the other
+'''
+
 # Prompt user for x
 print('x: ', end="")
 x = input()

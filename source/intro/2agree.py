@@ -1,3 +1,8 @@
+'''
+We need to check if the user accepted the terms and condition or not
+'''
+
+
 print('Do you agree?')
 c = input()
 
