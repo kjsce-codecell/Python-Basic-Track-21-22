@@ -73,6 +73,15 @@ del my_tuple
 # NameError: name 'my_tuple' is not defined
 print(my_tuple)
 '''
+'''
+# Concatenation
+# Output: (1, 2, 3, 4, 5, 6)
+print((1, 2, 3) + (4, 5, 6))
+
+# Repeat
+# Output: ('Repeat', 'Repeat', 'Repeat')
+print(("Repeat",) * 3)
+'''
 
 '''
 #tuple methods
