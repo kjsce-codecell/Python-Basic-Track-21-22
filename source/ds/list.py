@@ -93,12 +93,14 @@ print(size)
 exampleList = [4, 2, 1, 3]
 exampleList.sort()
 print(exampleList)
+exampleList.sort(reverse=True)
 # Output: [1, 2, 3, 4]
+# Output: [4, 3, 2, 1]
 '''
 
 '''
 unsortedList = [4, 2, 1, 3]
-sortedList = sorted(unsortedList)
+sortedList = sorted(unsortedList) # ,reverse=True
 print(sortedList)
 # Output: [1, 2, 3, 4]
 '''
@@ -134,4 +136,11 @@ print(cs_topics)
  
 # Output:
 # ['Python', 'Data Structures', 'Algorithms']
+'''
+
+
+'''
+List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
+del List[0]
+print(List)
 '''
