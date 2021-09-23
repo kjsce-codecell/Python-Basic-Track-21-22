@@ -2,28 +2,31 @@
 
 ## Getting started
 
+### Using Replit
+
+1. Click on the green `Code` button
+2. Click on `Download ZIP`
+3. drag and drop the downloaded zip file in [repl.it](repl.it)
+4. In the shell run the following cmmands
+
 ```
-git clone https://github.com/kjsce-codecell/Python-Basic-Track-21-22.git
+unzip Python-Basic-Track-21-22-main.zip
+rm -rf Python-Basic-Track-21-22-main.zip
+cd Python-Basic-Track-21-22-main.zip
 ```
 
-## Day 1:
+### Using your device terminal
 
-- Introduction to programming and python (Hussain)
-- Concepts of programming (Medhavi)
-- Conditional and loops
-- Switch case
-  -- quiz
-- Functions (Manasi)
-- Lambda function
-- DataStructures (Sahil and Soumen)
-- List tuple set (Sahil)
-- String dictionary (Soumen)
-  -- quiz
+Assuming you have git and python3 or aboove install
 
-## Projects ideas for day 2:
+```
+git clone git@github.com:kjsce-codecell/Python-Basic-Track-21-22.git
+cd Python-Basic-Track-21-22-main
+```
 
-OTP generation
-Menu driven calculator
-Runoff election
-Spell checker
-https://cs50.harvard.edu/x/2021/psets/6/readability/ readability
+## Projects
+
+- Authentication
+- Readability
+- QR code
+- Speech Recognition
