@@ -1,5 +1,11 @@
 # Python Basics
 
+## Getting started
+
+```
+git clone https://github.com/kjsce-codecell/Python-Basic-Track-21-22.git
+```
+
 ## Day 1:
 
 - Introduction to programming and python (Hussain)

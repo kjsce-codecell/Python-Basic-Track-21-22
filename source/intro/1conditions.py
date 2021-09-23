@@ -3,12 +3,9 @@ take two integers from the user and tell which one greater than the other
 '''
 
 # Prompt user for x
-print('x: ', end="")
-x = input()
-
-# Prompt user for y
-print('y: ', end="")
-y = input()
+x = input('x: ')
+# prompt user for y
+y = input('y: ')
 
 # Compare x and y
 if (x < y):
