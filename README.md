@@ -28,8 +28,10 @@ cd Python-Basic-Track-21-22/workshop
 
 - Understanding programming and python
 - Variables, Loops, Conditionals
+  - Understanding
   - Hands on
 - Functions
+  - Understanding
   - Hands on
   - Lambda functions
 - Data Structures
