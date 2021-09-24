@@ -27,6 +27,8 @@ my_tuple = ("hello",)
 print(type(my_tuple)) 
 '''
 
+
+
 '''
 # Accessing tuple elements using indexing
 my_tuple = ('p','e','r','m','i','t')
@@ -39,11 +41,30 @@ print(my_tuple[5])   # 't'
 n_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
 
 # nested index
-print(n_tuple[0][3])       # 's'
-print(n_tuple[1][1])       # 4
+print(n_tuple[0][3])       
+print(n_tuple[1][1])       
 print(n_tuple[-1])
 print(n_tuple[1:3])        #slicing works in the same fashion as that of lists
 '''
+
+
+
+
+
+
+
+
+
+
+'''
+# Concatenation
+print((1, 2, 3) + (4, 5, 6))
+
+# Repeat
+print(("Repeat",) * 3)
+'''
+
+
 
 
 '''
@@ -73,15 +94,7 @@ del my_tuple
 # NameError: name 'my_tuple' is not defined
 print(my_tuple)
 '''
-'''
-# Concatenation
-# Output: (1, 2, 3, 4, 5, 6)
-print((1, 2, 3) + (4, 5, 6))
 
-# Repeat
-# Output: ('Repeat', 'Repeat', 'Repeat')
-print(("Repeat",) * 3)
-'''
 
 '''
 #tuple methods

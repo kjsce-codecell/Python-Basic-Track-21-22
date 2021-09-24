@@ -45,7 +45,7 @@ heist[:-2]
 class_name_hobbies = [["Jenny", "Breakdancing"], ["Alexus", "Photography"], ["Grace", "Soccer"]]
 
 # The sublist of Jenny is at index 0. The hobby is at index 1 of the sublist.
-class_name_hobbies[0][1] = "Meditation"
+class_name_hobbies[0][1] = "Meditation"  #modifying the list
 print(class_name_hobbies)
 
 # Output
