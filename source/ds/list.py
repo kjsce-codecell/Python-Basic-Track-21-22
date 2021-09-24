@@ -19,12 +19,12 @@ list_of_lists = [['a', 1], ['b', 2]]
 '''
 
 
-'''
+''''
 tools = ['pen','hammer','lever']
 tools_slice = tools[1:3]
 # ['hammer', 'lever']
 tools_slice[0] = 'nail'
-
+print(tools_slice)
 # Original list is unaltered:
 print(tools) 
 # ['pen', 'hammer', 'lever']
@@ -34,9 +34,12 @@ print(tools)
 heist = ['prof', 'rio', 'tokyo', 'nairobi']
 heist[-1]   
 # 'nairobi'
+print(heist[-1])
 heist[-3:]  
+print(heist[-3:])
 # 'rio', 'tokyo', 'nairobi'
 heist[:-2]  
+print(heist[:-2])
 # 'prof', 'rio'
 '''
 
@@ -54,23 +57,21 @@ print(class_name_hobbies)
 
 
 '''
-orders = ['daisies', 'roses']
-orders.append('tulips')
-print(orders)
+flowers = ['daisies', 'roses']
+flowers.append('tulips')
+print(flowers)
 # Result: ['daisies', 'roses', 'tulips']
 
 '''
 
 '''
 # Create a list
-shopping_line = ["Cole", "Kip", "Chris", "Sylvana", "Chris"]
+flowers = ['daisies', 'roses', 'tulips','roses']
  
-# Removes the first occurance of "Chris"
-shopping_line.remove("Chris")
-print(shopping_line)
+# Removes the first occurance of "roses"
+flowers.remove("roses")
+print(flowers)
  
-# Output
-# ["Cole", "Kip", "Sylvana", "Chris"]
 '''
 
 
@@ -83,8 +84,9 @@ print(numPen)
 '''
 
 '''
-knapsack = [2, 4, 3, 7, 10]
-size = len(knapsack)
+#len is a function 
+list1 = [2, 4, 3, 7, 10]
+size = len(list1)
 print(size) 
 # Output: 
 '''
@@ -94,26 +96,28 @@ exampleList = [4, 2, 1, 3]
 exampleList.sort()
 print(exampleList)
 exampleList.sort(reverse=True)
+print(exampleList)
 # Output: [1, 2, 3, 4]
 # Output: [4, 3, 2, 1]
 '''
 
-'''
+''''
 unsortedList = [4, 2, 1, 3]
 sortedList = sorted(unsortedList) # ,reverse=True
 print(sortedList)
+print(unsortedList)
 # Output: [1, 2, 3, 4]
 '''
 
 '''
-# Here is a list representing a line of people at a store
-store_line = ["Karla", "Maxium", "Martim", "Isabella"]
+#list representing a line of people at a store
+store_line = ["Karla", "Maxium", "Martin", "Isabella"]
  
-# Here is how to insert "Vikor" after "Maxium" and before "Martim"
-store_line.insert(2, "Vikor")
+# Here is how to insert "Kevin" after "Maxium" and before "Martin"
+store_line.insert(2, "Kevin")
  
 print(store_line) 
-# Output: ['Karla', 'Maxium', 'Vikor', 'Martim', 'Isabella']
+
 '''
 
 
@@ -134,12 +138,10 @@ print(removed_element)
 cs_topics.pop(2)
 print(cs_topics)
  
-# Output:
-# ['Python', 'Data Structures', 'Algorithms']
 '''
 
 
-'''
+''''
 List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
 del List[0]
 print(List)
