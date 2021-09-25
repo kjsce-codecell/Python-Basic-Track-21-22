@@ -1,5 +1,7 @@
 # Python Basics
 
+[![made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 ## Getting started
 
 ### Using Replit
