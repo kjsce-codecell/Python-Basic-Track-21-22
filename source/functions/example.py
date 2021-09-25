@@ -39,10 +39,14 @@ def myfunction():
 def myfunction():  #this will give an error
 
 
+def sqr(a):
+  return a**2
+print(sqr(8))
+
 #Lambda Function
 #with 1 argument
-x = lambda a : a - 5
-print(x(20))
+sqr = lambda a : a**2
+print(sqr(8))
 
 #with 2 arguments
 x = lambda a, b : a / b
