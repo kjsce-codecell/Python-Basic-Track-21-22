@@ -18,7 +18,7 @@ with speech_recognition.Microphone(device_index=2) as source:
     speak("listening")
 
     # listen for audio
-    audio = recognizer.listen(source, timeout=3, phrase_time_limit=3)
+    audio = recognizer.listen(source, timeout=5, phrase_time_limit=5)
 
 try:
     print("Recognizing...")
