@@ -1,13 +1,12 @@
-d = {"Manasi": "1234",
-  "Hussain": "0000",
-  "Sahil": "6789",
-  "Soumen": "0202"}
-print("Enter username and password") 
-while(True):
+def signin():
+    d = {"Manasi": "1234",
+    "Hussain": "0000",
+    "Sahil": "6789",
+    "Soumen": "0202"}
+    print("Enter username and password") 
     username=input("Enter username: ") 
     if username in d.keys():
         print("Welcome " + username + "!") 
-        # while(True):
         password=input("Enter password: ") 
         if(d[username]==password):
             print("Valid password")
@@ -16,3 +15,5 @@ while(True):
             print("Wrong password!\nRe-enter password.")
     else:
         print("Username does not exist") 
+    
+signin()
